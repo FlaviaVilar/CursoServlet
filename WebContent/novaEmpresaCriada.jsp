@@ -1,7 +1,7 @@
 <!--  Java server page - JSP   JSP é uma tecnologia que renderiza as páginas no servidor antes de enviá-la.-->
 
 <%
-	String nomeEmpresa = "Alura";
+	String nomeEmpresa = (String)request.getAttribute("empresa");
 	System.out.println(nomeEmpresa);
 %>
 
